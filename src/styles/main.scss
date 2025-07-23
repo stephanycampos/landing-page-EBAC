@@ -1,6 +1,7 @@
 @use 'variaveis';
 @use 'hero';
 @use 'shows';
+@use 'plans';
 
 
 @font-face {
@@ -40,6 +41,8 @@ body {
 
 p{
      color: variaveis.$corTextoSecundaria;
+     margin-left:-80px ;
+
 
 }
 
@@ -49,10 +52,13 @@ p{
 
 .text {
     @include text;
+    text-align: center;
 }
 
 .text--small {
     @include text (12px);
+    margin-left: -75px; 
+
 }
 
 .link-text {
@@ -72,3 +78,16 @@ p{
 .title--small {
     @include title (28px);
 }
+
+.button {
+    display: block;
+    width: 80%;
+    height: 50px;
+    font-size: 15px;
+    color: variaveis.$corTextoSecundaria;
+    background-color: #6421ff;
+    text-transform: uppercase;
+    border-radius: 4px;
+    margin-top: 2vw;
+    margin-bottom: 8px;
+    }

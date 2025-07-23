@@ -14,10 +14,14 @@
     &__branding{
         max-width: 320px;
         margin: 0 auto 28px;
+        margin-left: 120px ;
+
     }
     .title--small {
         margin-bottom: 34px;
         font-size: 25px;
+        margin-left:-50px ;
+
     }
 
     p{
@@ -51,18 +55,6 @@
 
             }
 
-            button {
-                display: block;
-                width: 80%;
-                height: 50px;
-                font-size: 15px;
-                color: variaveis.$corTextoSecundaria;
-                background-color: #6421ff;
-                text-transform: uppercase;
-                border-radius: 4px;
-                margin-top: 2vw;
-                margin-bottom: 8px;
-            }
 
             .text {
                 display: block;
