@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
 function removeBotaoAtivo() {
   const buttons = document.querySelectorAll('[data-tab-button]');
   for (let i = 0; i < buttons.length; i++) {
-    buttons[i].classList.remove('shows__tab__button--is-active');
+    buttons[i].classList.remove('shows__tabs__button--is-active'); // <-- CORRIGIDO AQUI
   }
 }
 
