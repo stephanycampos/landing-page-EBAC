@@ -3,6 +3,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    background-image: url(../images/fundo_regularshow.jpg);
+
+    @media (max-width: 768px) {
+        display: block;
+    }
+
+    
+
 
     img {
         max-width: 100%;

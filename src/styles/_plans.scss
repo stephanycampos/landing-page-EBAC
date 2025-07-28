@@ -1,5 +1,7 @@
 .plans {
   padding: 5.6vw;
+  background-image: url(../images/fundo_regularshow.jpg);
+
 
   h2 {
     text-align: center;
@@ -13,22 +15,30 @@
     gap: 32px;
     margin-top: 50px;
 
+    @media (max-width: 768px){
+      display: block;
+    }
+
     &__item {
       text-align: center;
       padding: 60px 44px 44px;
       max-width: 380px;
       width: 100%;
 
+      img {
+        margin-left: -70px;
+      }
+
 
       &:nth-child(2) {
         background-image: url(../images/fundo_combo_plus.png);
         background-repeat: no-repeat;
         background-size: contain;
+        width: 600px;
       }
 
       strong {
         display: block;
-        margin-left: -50px;
         margin-top: 24px;
 
       }
@@ -44,4 +54,9 @@
   p {
     text-align: center;
   }
+
+  .button{
+    margin-left: 20px;
+  }
+
 }
